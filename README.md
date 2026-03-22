@@ -37,7 +37,7 @@ flowchart TD
     classDef alertBox fill:#fff5f5,stroke:#e53e3e,stroke-width:2px,rx:5,ry:5,color:#c53030,font-weight:bold;
 
     %% Data Flow Input
-    Input((["LLM / Agent\nAction Request"])):::highlightBox
+    Input(["LLM / Agent\nAction Request"]):::highlightBox
     
     subgraph L1 ["Layer 1: Infrastructure (Network & Routing)"]
         direction LR
